@@ -160,7 +160,7 @@ public class Room0 {
 			            boolean isLockOpened = lock(scanner1);
 			            if (isLockOpened) {
 			                isLocked = false; 
-			                System.out.println(TextChange.ANSI_ITALIC +  "This is a test"+ TextChange.ANSI_RESET);
+			                System.out.println(TextChange.ANSI_ITALIC +  "You enter the next room"+ TextChange.ANSI_RESET);
 
 			                isRunning = false;
 			                break; 
