@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Room0 {
+public class Level0 {
     public static boolean isEntryExists(String picture) {
         try {
             BufferedReader reader = new BufferedReader(new FileReader("diary.txt"));

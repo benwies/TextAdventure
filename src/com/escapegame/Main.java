@@ -90,7 +90,7 @@ public class Main {
                 }
             }
             if (!isRunning) {
-                Room0.setupLevelZero(scanner);
+                Level0.setupLevelZero(scanner);
             }
 		}
     }
