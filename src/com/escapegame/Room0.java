@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Room0 {
-	
     public static boolean isEntryExists(String picture) {
         try {
             BufferedReader reader = new BufferedReader(new FileReader("diary.txt"));
@@ -83,7 +82,7 @@ public class Room0 {
         return false;
     }
 
-    public static void setupLevelZero(Scanner scanner) {
+    public static void room1(Scanner scanner) {
     	boolean isLocked = true;
         try (Scanner scanner1 = new Scanner(System.in)) {
         	Commands.clearConsole();
@@ -177,6 +176,14 @@ public class Room0 {
 				}		
 				
 			}
+        }		
+    
+
+    public static void setupLevelZero(Scanner scanner) {
+    	room1(scanner);
+    	
+    	
+
         }		
     }
 
